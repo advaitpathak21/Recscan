@@ -1,0 +1,6 @@
+**INSTALLING GO IS THE MOST IMPORTANT PART. IF GO IS ALREADY INSTALLED, GO TO STEP 4 directly** 
+1) Install go for Linux using: https://golang.org/dl/ and then use tar as specified on the page.
+2) After this, we need to make changes to the profile to add the environment variable for GO
+3) Add the environment variable to profile using : gedit ~/.profile. Append (export GOPATH=$HOME/go export PATH=$PATH:$GOPATH/bin) to the profile file and do . ~/.profile on the terminal
+4) Now, run depends.py : python depends.py
+5) Now, you are ready to run recscan
